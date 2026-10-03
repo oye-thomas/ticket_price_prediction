@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Environnements
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Données (à versionner avec DVC si besoin)
+data/
+*.csv
+*.parquet
+*.h5
+*.feather
+*.pkl
+
+# Modèles et checkpoints
+models/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.joblib
+*.safetensors
+
+# Logs d'expériences
+mlruns/
+wandb/
+lightning_logs/
+runs/
+logs/
+*.log
+
+# IDE et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
